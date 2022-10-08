@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Roboto;
+    background-color: #FFF0E5;
+    font-size: 14px;
+}
+
+.h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.upcase {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 6rem;
+    color: #10162f;
+    border-bottom: 1px solid black;
+}
+
+.nav-title {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.nav-hover {
+    cursor: pointer;
+}
+
+.nav-hover:hover {
+    color: #3A10E5;
+}
+
+.navbar-logo {
+    width: 120px;
+}
+
+.search-icon {
+    width: 20px;
+    margin-left: 15px;
+    padding: 5px;
+
+}
+
+.search-icon:hover {
+    background-color: #DBDCE0;
+}
+
+.bell-icon {
+    width: 20px;
+    padding: 5px;
+}
+
+.bell-icon:hover {
+    background-color: #DBDCE0;
+}
+
+.profile-avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.full-btn {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: white;
+    background-color: #3A10E5;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+
+}
+
+.nav-pro-btn:hover {
+    color: rgba(255, 255, 255, 0.953);
+    background-color: #5533ff;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+
+.left.content {
+    width: 65%;
+}
+
+.right.content {
+    width: 35%;
+}
+
+.pro-message-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px 40px;
+}
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.expanded-course-box {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.course-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-btn {
+    color: #3A10E5;
+    font-size: 14px;
+    font-weight: 700px;
+    padding: 10px;
+    text-align: center;
+}
+
+.second-btn:hover {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    transition: ease-in 0s;
+    cursor: pointer;
+}
+
+.pro-message {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.pro-icon {
+    margin-right: 15px;
+}
+
+.course-scope {
+    background-color: #f5f5f5;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 800px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.course-cta {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.syllabus-btn {
+    text-align: center;
+    margin-right: 10px
+}
+
+.course-content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: 600px;
+}
+
+.course-content-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-info-item {
+    margin: 0 60px 0 15px;
+}
+
+.lesson-icon {
+    background-color: #FFD300;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: -6px;
+    justify-content: center;
+    align-items: center;
+}
